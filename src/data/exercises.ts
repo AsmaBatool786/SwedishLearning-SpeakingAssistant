@@ -197,6 +197,62 @@ export const practiceScenarios: PracticeScenario[] = [
     initialAiGreeting: 'Hej! Behöver du hjälp att hitta något i butiken idag?'
   },
   {
+    id: 'school',
+    title: 'At the School (I skolan)',
+    description: 'Interact with a classmate or Swedish teacher. Discuss coursework, homework, or grammar study tips.',
+    difficulty: 'A1',
+    icon: 'GraduationCap',
+    suggestedPhrases: [
+      'Ursäkta, när börjar lektionen?',
+      'Har vi några läxor till imorgon?',
+      'Kan du förklara den här regeln?',
+      'Jag vill lära mig mer svenska!'
+    ],
+    initialAiGreeting: 'Välkommen till klassrummet! Är du redo för dagens lektion i svenska?'
+  },
+  {
+    id: 'doctor',
+    title: 'At the Doctor (Hos doktorn)',
+    description: 'Explain symptoms like fevers, cold, or headaches at a Swedish vårdcentral (health clinic).',
+    difficulty: 'A2',
+    icon: 'Stethoscope',
+    suggestedPhrases: [
+      'Jag har haft feber och ont i halsen i tre dagar.',
+      'Behöver jag ett recept för denna medicin?',
+      'Kan jag boka en tid hos en läkare?',
+      'Gör det ont när du trycker här?'
+    ],
+    initialAiGreeting: 'Välkommen till vårdcentralen. Vad har du för symptom som vi ska titta på idag?'
+  },
+  {
+    id: 'pharmacy',
+    title: 'At the Pharmacy (På apoteket)',
+    description: 'Pickup prescription medicine or search for over-the-counter painkillers or cough drops.',
+    difficulty: 'A2',
+    icon: 'Pills',
+    suggestedPhrases: [
+      'Jag vill hämta ut ett recept, tack.',
+      'Har ni något mot huvudvärk?',
+      'Hur många gånger om dagen ska jag ta detta?',
+      'Finns det några biverkningar?'
+    ],
+    initialAiGreeting: 'Välkommen till Apoteket Hjärtat! Vill du hämta ut ett recept eller letar du efter receptfria varor?'
+  },
+  {
+    id: 'bank',
+    title: 'At the Bank (I banken)',
+    description: 'Discuss opening a personal account, applying for a BankID, or exchanging currency at a bank branch.',
+    difficulty: 'B1',
+    icon: 'Landmark',
+    suggestedPhrases: [
+      'Jag skulle vilja öppna ett bankkonto.',
+      'Hur ansöker jag om ett svenskt BankID?',
+      'Vad är räntan på sparkontot?',
+      'Vilka dokument behöver jag visa upp?'
+    ],
+    initialAiGreeting: 'Välkommen till bankkontoret. Vad kan jag hjälpa dig med för finansiella ärenden idag?'
+  },
+  {
     id: 'smalltalk',
     title: 'Small Talk at Work (Fika-småprat)',
     description: 'Discuss weekend plans, local weather or standard work-life routines in the lunchroom.',
@@ -209,6 +265,20 @@ export const practiceScenarios: PracticeScenario[] = [
       'Ska vi ta en fika klockan tre?'
     ],
     initialAiGreeting: 'Hej kollega! Kul att ses vid kaffemaskinen. Hur har din vecka varit än så länge?'
+  },
+  {
+    id: 'renting',
+    title: 'Renting an Apartment (Söka lägenhet)',
+    description: 'Negotiate with a landlord to rent a sublet apartment (andrahandskontrakt) in Stockholm or Gothenburg.',
+    difficulty: 'B2',
+    icon: 'Home',
+    suggestedPhrases: [
+      'Hur hög är hyran och vad ingår i den?',
+      'Kan jag få hyra lägenheten i andra hand?',
+      'Är lägenheten möblerad eller omöblerad?',
+      'När kan jag komma och titta på den?'
+    ],
+    initialAiGreeting: 'Hej! Kul att du är intresserad av min lägenhet i Solna. Kan du berätta lite om din sysselsättning och vem du ska bo med?'
   },
   {
     id: 'job-interview',
