@@ -1,0 +1,10 @@
+{
+  "name": "Swedish Learning & speaking Assistant",
+  "description": "Learn, practice, and polish your Swedish grammar and daily conversation through interactive exercises and AI-powered speaking scenarios with speech recognition.",
+  "requestFramePermissions": [
+    "microphone"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
